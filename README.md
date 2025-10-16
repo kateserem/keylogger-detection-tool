@@ -96,8 +96,10 @@
 
 # Author
 
-  Kate Serem
+  Kate Serem:
+  
   Computer Engineering and Cybersecurity, Texas A&M University
+  
   github: kateserem
   
 
