@@ -74,25 +74,28 @@
 
 # Output Example
 
-  {
-    "timestamp": "2025-10-16T21:45:00Z",
-    "detections": [
-      {
-        "pid": 4820,
-        "name": "logkeys.exe",
-        "exe": "C:\\Users\\Kate\\AppData\\Local\\Temp\\logkeys.exe",
-        "username": "Kate",
-        "cmdline": "logkeys.exe --start",
-        "parent_name": "explorer.exe",
-        "open_files_hits": ["C:\\Users\\Kate\\AppData\\Roaming\\keys.txt"],
-        "parent_lineage": {
-          "score": 5,
-          "severity": "medium",
-          "rule_hits": ["P4", "P5"]
-        }
+**Example `detection.ndjson` entry:**
+
+```json
+{
+  "timestamp": "2025-10-16T21:45:00Z",
+  "detections": [
+    {
+      "pid": 4820,
+      "name": "logkeys.exe",
+      "exe": "C:\\Users\\Kate\\AppData\\Local\\Temp\\logkeys.exe",
+      "username": "Kate",
+      "cmdline": "logkeys.exe --start",
+      "parent_name": "explorer.exe",
+      "open_files_hits": ["C:\\Users\\Kate\\AppData\\Roaming\\keys.txt"],
+      "parent_lineage": {
+        "score": 5,
+        "severity": "medium",
+        "rule_hits": ["P4", "P5"]
       }
-    ]
-  }
+    }
+  ]
+}
 
 # Author
 
